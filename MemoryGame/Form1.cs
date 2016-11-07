@@ -108,6 +108,12 @@ namespace MemoryGame
                 }
             }
 
+
+          /* This function has 3 steps.
+           * 1) It creates an array and fill inside of the array with random numbers between 1 and 16.
+           * 2) It does subtraction process for numbers greater than 8. (because we have 8 different images for this game.
+           * 3) It sets array's numbers to pictureBoxes' tags.
+           */
         }
         void compare(PictureBox previous, PictureBox current)
         {
